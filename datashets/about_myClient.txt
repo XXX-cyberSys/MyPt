@@ -1,0 +1,30 @@
+About command 'my client'
+
+This command print your login and password in console where you start this programm
+Exemple: 
+If you start this programm in Windows PowerShell - your info in print in PowerShel
+If you copy my code and compiled there - info is print in Geany-console or VSCode-comsole or when you starting
+
+Printing exemple:
+
+
+    Enter your command: my client
+
+    --- Account Data ---
+    login: Masha
+    password: 12345
+
+    Enter your command: _|
+
+
+!!!WARING!!! You must create account before usind this command
+If you didn't create client-account or remove account-folder, your info look like:
+
+
+    Enter your command: my client
+
+    --- Account Data ---
+    Login: [Not Found]
+    Password: [Not Found]
+
+    Enter your command: _|

@@ -1,0 +1,31 @@
+About command 'exit'
+
+This command stopping your process or/and clossing window
+If you write this command when work command 'windows tools' - you run in home
+If you write exit in home - window with programm is clossing and programm is stopping
+
+In somethink commands this command don't working
+
+Exemple:
+
+
+    Enter your command: help
+
+    === Available Commands ===
+    1. new client - Create new client with access key
+    2. my client - Show client information
+    3. delete my client - Delete client data
+    4. windows tools - Open Windows applications
+    5. my computer - Show system information
+    6. help - Show this help message
+    7. exit - Exit the program
+
+    If you don't know or don't understand about anythink command - write '<command number>'
+
+    Enter the number of the command to learn more: exit
+    Invalid help number.
+
+    Enter your command: _|
+
+
+...but command help exit in home

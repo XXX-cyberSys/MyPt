@@ -1,0 +1,32 @@
+About command 'new client'
+
+This command create a new client-file (info about your computer, your password? your login and etc)
+
+You must write new login and new password for your new client-account.
+Exemple:
+
+
+    Enter your command: new client
+
+    ==================== New client-account =======================
+    Settings at your new account:
+        Enter login(<=100): Masha
+        Enter password(<=100): 12345
+        We can take info about your device and write this info in your client-account
+    Do you want create a new account (yes/no): yes
+    ==============================================================
+    Success: Data saved to 'user_settings_files' folder!
+
+    ====================create new client...=======================We create a new account for you.
+    Files with your info save in folder with name 'user_settings_file' on your computer
+    If you delite this folder, your client-account delite
+
+    ====================BrestHouse=====================
+    Enter your command: _|
+
+
+!!!WARING!!! 
+If you delite folder with your account-files - your client-account automatic delite!
+
+Your password must be <=100 sumbols
+Your login (name) must be <=100 sumbols

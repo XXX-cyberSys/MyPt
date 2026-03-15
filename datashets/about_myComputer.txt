@@ -1,0 +1,7 @@
+About command 'my computer'
+
+This command printing info about your computer:
+    settings about your net
+    info about processor, memory and OS
+
+If you want, you can read this info in file 'my_computer_info.txt' in folder 'user_settings_files'

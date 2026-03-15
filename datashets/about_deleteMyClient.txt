@@ -1,0 +1,30 @@
+About command 'delete my client'
+
+This command remove (delete) files in/and folder with you accont-information
+You wil can't give info about your account
+
+Command yourself find folder and files with your info and remove this
+In console print:
+
+
+    Enter your command: delete my client
+
+    [Success] Client files deleted.
+
+    Enter your command:
+
+
+If this title don't showing in console - programm is froze
+and you must reboot programm
+
+After this command you can create new client, but, if you want ask info about your account,
+you give:
+
+
+    Enter your command: my client
+
+    --- Account Data ---
+    Login: [Not Found]
+    Password: [Not Found]
+
+    Enter your command: _|

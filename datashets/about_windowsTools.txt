@@ -1,0 +1,127 @@
+About command 'windows tools'
+
+!!!WARING!!! You don't must using 'windows tools' if you haven't active Microsoft-office!
+There using break this program!
+
+This command can openning windows-office programms
+You can open:
+    1.Word
+    2.Excel
+    3.PowerPoint
+
+
+1. Word
+
+You can open word wiht commands 'open word' and 'word open'
+
+Exemple first:
+
+
+    Enter your command: windows tools
+    ===============BrestHouse===============
+        Write your command...
+    open word
+    === Word is opening. Please, don't close terminal... ===
+    <word is openning>
+    ===============BrestHouse===============
+        Write your command...
+    _|
+
+
+Exemple second:
+
+
+    Enter your command: windows tools
+    ===============BrestHouse===============
+        Write your command...
+    word open
+    === Word is opening. Please, don't close terminal... ===
+    <word is openning>
+    ===============BrestHouse===============
+        Write your command...
+    _|
+
+
+2. Word
+
+You can open word wiht commands 'open excel' and 'excel open'
+
+Exemple first:
+
+
+    Enter your command: windows tools
+    ===============BrestHouse===============
+        Write your command...
+    open excel
+    === Excel is opening. Please, don't close terminal... ===
+    <excel is openning>
+    ===============BrestHouse===============
+        Write your command...
+    _|
+
+
+Exemple second:
+
+
+    Enter your command: windows tools
+    ===============BrestHouse===============
+        Write your command...
+    excel open
+    === Excel is opening. Please, don't close terminal... ===
+    <excel is openning>
+    ===============BrestHouse===============
+        Write your command...
+    _|
+
+
+3. PowerPoint
+
+You can open word wiht commands 'open pwp' and 'pwp open'
+
+Exemple first:
+
+
+    Enter your command: windows tools
+    ===============BrestHouse===============
+        Write your command...
+    open pwp
+    === PowerPoint is opening. Please, don't close terminal... ===
+    <PowerPoint is openning>
+    ===============BrestHouse===============
+        Write your command...
+    _|
+
+
+Exemple second:
+
+
+    Enter your command: windows tools
+    ===============BrestHouse===============
+        Write your command...
+    pwp open
+    === Word is opening. Please, don't close terminal... ===
+    <PowerPoint is openning>
+    ===============BrestHouse===============
+        Write your command...
+    _|
+
+
+If you want exit in home, you must using 'exit'
+
+Exemple:
+
+
+    Enter your command: windows tools
+    ===============BrestHouse===============
+        Write your command...
+    open word
+    === Word is opening. Please, don't close terminal... ===
+    ===============BrestHouse===============
+        Write your command...
+    exit
+
+    Enter your command: _|
+
+
+!!!WARING!!! You don't must using 'windows tools' if you haven't active Microsoft-office!
+There using break this program!

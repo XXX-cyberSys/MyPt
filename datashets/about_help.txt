@@ -1,0 +1,70 @@
+About command 'help'
+
+This command is printing commands and can openning datashets
+
+Standart-print:
+
+
+    Enter your command: help
+
+    === Available Commands ===
+    1. new client - Create new client with access key
+    2. my client - Show client information
+    3. delete my client - Delete client data
+    4. windows tools - Open Windows applications
+    5. my computer - Show system information
+    6. help - Show this help message
+    7. exit - Exit the program
+
+    If you don't know or don't understand about anythink command - write '<command number>'
+
+    Enter the number of the command to learn more: _|
+
+
+In 'Enter the number of the command to learn more: _|' you must write number of command (array in prints) 
+and programm automatic openning file .txt with text about command
+
+Exemple:
+
+
+    Enter your command: help
+
+    === Available Commands ===
+    1. new client - Create new client with access key
+    2. my client - Show client information
+    3. delete my client - Delete client data
+    4. windows tools - Open Windows applications
+    5. my computer - Show system information
+    6. help - Show this help message
+    7. exit - Exit the program
+
+    If you don't know or don't understand about anythink command - write '<command number>'
+
+    Enter the number of the command to learn more: 1
+
+
+...and programm openning notepad with file about_newClient.txt
+
+If you want exit in home, you must openning somethink datashet (and clossing this) or write somethink text
+programm write 'Invalid help number.' and return you in home
+
+Exemple:
+
+
+    Enter your command: help
+
+    === Available Commands ===
+    1. new client - Create new client with access key
+    2. my client - Show client information
+    3. delete my client - Delete client data
+    4. windows tools - Open Windows applications
+    5. my computer - Show system information
+    6. help - Show this help message
+    7. exit - Exit the program
+
+    If you don't know or don't understand about anythink command - write '<command number>'
+
+    Enter the number of the command to learn more: hjbjbkijb
+    Invalid help number.
+
+    Enter your command: _|
