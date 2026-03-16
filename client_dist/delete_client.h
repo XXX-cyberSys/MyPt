@@ -1,7 +1,7 @@
 #include <cstdio>
-#include <windows.h>
-#include <cstdlib>
-#include <string.h>
+#include <lib/windows.h>
+#include <lib/cstdlib>
+#include <lib/string.h>
 
 // проверяем результат выполнения команды.
 int delete_client() {
