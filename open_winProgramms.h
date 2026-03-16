@@ -2,9 +2,9 @@
 #define OPEN_WINPROGRAMS_H
 
 #include <stdio.h>
-#include <lib/cstdlib>
-#include <lib/windows.h>
-#include <lib/string.h>
+#include <cstdlib>
+#include <windows.h>
+#include <string.h>
 
 // Объявление функций
 //void openning_win_tools();

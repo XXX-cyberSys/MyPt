@@ -1,7 +1,7 @@
 #include <cstdio>
-#include <lib/windows.h>
-#include <lib/cstdlib>
-#include <lib/string.h>
+#include <windows.h>
+#include <cstdlib>
+#include <string.h>
 
 // универсальная функция (должна быть объявлена выше или в заголовочном файле)
 int save_to_file(const char* data, const char* filename, const char* folder) {

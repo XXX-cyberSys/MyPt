@@ -1,7 +1,7 @@
 #include <cstdio>
-#include <lib/windows.h>
-#include <lib/cstdlib>
-#include <lib/string.h>
+#include <windows.h>
+#include <cstdlib>
+#include <string.h>
 
 // data - буфер, куда запишем результат, filename - имя файла, folder - папка
 int read_from_file(char* data, int buffer_size, const char* filename, const char* folder) {

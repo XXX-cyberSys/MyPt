@@ -1,10 +1,10 @@
 #include <cstdio>
-#include <lib/windows.h>
-#include <lib/cstdlib>
-#include <lib/iphlpapi.h>
-#include <lib/winsock2.h>
-#include <lib/stdlib.h>
-#include <lib/string.h>
+#include <windows.h>
+#include <cstdlib>
+#include <iphlpapi.h>
+#include <winsock2.h>
+#include <stdlib.h>
+#include <string.h>
 // #pragma comment(lib, "iphlpapi.lib")
 
 // void getMemory() {
