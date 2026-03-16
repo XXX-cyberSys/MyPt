@@ -12,8 +12,12 @@ void print_commands() {
     printf("7. exit - Exit the program\n\n");
     printf("8. t <file> <from> <to> - Translate code between languages\n");
     printf("9. os-choise - OS recommendation based on your needs\n");
+<<<<<<< HEAD
     printf("10. scanc - Scan computer for vulnerabilities\n\n");
 
+=======
+    printf("10. scanc - Scan computer for vulnerabilities\n");
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
     printf("If you don't know or don't understand about anythink command - write '<command number>'\n\n");
 }
 

@@ -150,11 +150,17 @@ void parse_t_command(const char* input, char* file, char* from_lang, char* to_la
     file[0] = '\0';
     from_lang[0] = '\0';
     to_lang[0] = '\0';
+<<<<<<< HEAD
     
     // Пропускаем 't' и пробелы
     const char* ptr = input + 1;
     while (*ptr == ' ') ptr++;
     
+=======
+    // Пропускаем 't' и пробелы
+    const char* ptr = input + 1;
+    while (*ptr == ' ') ptr++;
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
     // Парсим первый аргумент (файл)
     int i = 0;
     while (*ptr && *ptr != ' ' && *ptr != ',') {
@@ -162,10 +168,15 @@ void parse_t_command(const char* input, char* file, char* from_lang, char* to_la
         file[i++] = *ptr++;
     }
     file[i] = '\0';
+<<<<<<< HEAD
     
     // Пропускаем разделители
     while (*ptr && (*ptr == ' ' || *ptr == ',')) ptr++;
     
+=======
+    // Пропускаем разделители
+    while (*ptr && (*ptr == ' ' || *ptr == ',')) ptr++;
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
     // Парсим второй аргумент (исходный язык)
     i = 0;
     while (*ptr && *ptr != ' ' && *ptr != ',') {
@@ -173,10 +184,15 @@ void parse_t_command(const char* input, char* file, char* from_lang, char* to_la
         from_lang[i++] = *ptr++;
     }
     from_lang[i] = '\0';
+<<<<<<< HEAD
     
     // Пропускаем разделители
     while (*ptr && (*ptr == ' ' || *ptr == ',')) ptr++;
     
+=======
+    // Пропускаем разделители
+    while (*ptr && (*ptr == ' ' || *ptr == ',')) ptr++;
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
     // Парсим третий аргумент (целевой язык)
     i = 0;
     while (*ptr && *ptr != ' ' && *ptr != ',') {
@@ -190,20 +206,31 @@ int main() {
     // Настройка кодировки для консоли Windows
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
+<<<<<<< HEAD
     
+=======
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
     cout << "=============== MyPt Manager ===============" << endl;
     cout << "Type 'help' to see available commands" << endl;
     cout << "Type 'exit' to quit the program" << endl;
     cout << "=============================================" << endl;
+<<<<<<< HEAD
     
     while (true) {
         q_command();
         
+=======
+    while (true) {
+        q_command();
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
         // Пропускаем пустой ввод
         if (strlen(user_command) == 0) {
             continue;
         }
+<<<<<<< HEAD
         
+=======
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
         // Проверяем команду t с аргументами
         if (strncmp(user_command, "t ", 2) == 0 || strcmp(user_command, "t") == 0) {
             if (strcmp(user_command, "t") == 0) {
@@ -213,7 +240,10 @@ int main() {
             } else {
                 char file[100], from_lang[50], to_lang[50];
                 parse_t_command(user_command, file, from_lang, to_lang);
+<<<<<<< HEAD
                 
+=======
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
                 if (strlen(file) > 0 && strlen(from_lang) > 0 && strlen(to_lang) > 0) {
                     char* argv[4] = {(char*)"t", file, from_lang, to_lang};
                     t_command(4, argv);
@@ -253,12 +283,17 @@ int main() {
         }
         else if (strcmp(user_command, "help") == 0) {
             print_commands();
+<<<<<<< HEAD
             
             cout << "\n=== Additional Commands ===" << endl;
             cout << "8. t <file> <from> <to> - Translate code between languages" << endl;
             cout << "9. os-choise - OS recommendation based on your needs" << endl;
             cout << "10. scanc - Scan computer for vulnerabilities" << endl;
             
+=======
+            cout << "9. os-choise - OS recommendation based on your needs" << endl;
+            cout << "10. scanc - Scan computer for vulnerabilities" << endl;
+>>>>>>> cfe38727812273afa8090a73bbb6f5c85fcd607e
             cout << "\nEnter the number of the command to learn more (or 0 for main menu): ";
             char help_choice[10];
             cin.getline(help_choice, sizeof(help_choice));
